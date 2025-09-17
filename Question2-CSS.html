@@ -4,17 +4,34 @@
    <title>Question 2 - CSS</title>
    <style>
     .mainsection a {
-      text-decoration: none;
       color: #414040;
       outline: none;
+      cursor: pointer;
+      text-decoration: underline;
     }
+      a:link {
+        color: blue;
+      }
+      a:visited {
+        color: #551A8B;
+      }
+      a:hover {
+        color: green;
+      }
 
+    h1{
+      text-align: center;
+      font-size:35px;
+      background-image: url("lab2/lab2-imageoftext.gif");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
     
     </style>
 </head>
 <body>
 <div class="mainsection">
-<h1><img src="lab2/lab2-imageoftext.gif" alt="Shopping categories"></h1>
+<h1>Shopping categories</h1>
 
 <ul>
   <li><a href="#">Animals</a></li>
